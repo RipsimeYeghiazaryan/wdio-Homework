@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637742735629' stop='1637742742932'>
+    <name>Stack Overflow page</name>
+    <title>Stack Overflow page</title>
+    <test-cases>
+        <test-case start='1637742735630' status='passed' stop='1637742736618'>
+            <name>should open the page</name>
+            <title>should open the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637742735632' status='passed' stop='1637742736617'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f1c2deaa-d2de-40d3-aab5-cc8a95d31b6f-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637742736618' status='passed' stop='1637742742931'>
+            <name>should search a job</name>
+            <title>should search a job</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637742736619' status='passed' stop='1637742736632'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e76b25ac-7151-43a2-9d41-36381bbb2163-attachment.json' type='application/json' size='101'/>
+                        <attachment title='Response' source='5a46085f-d728-4181-b81d-283bad1645c6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637742736635' status='passed' stop='1637742736670'>
+                    <name>POST /session/:sessionId/element/45612279-6cdf-45a8-8d87-0082d02b2a3c/click</name>
+                    <title>POST /session/:sessionId/element/45612279-6cdf-45a8-8d87-0082d02b2a3c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637742736671' status='passed' stop='1637742736685'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c63503ac-e90c-4fe8-b5f7-2938e08fb289-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='a52abb1d-6eb5-4769-aac0-dd36c18110d3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637742736688' status='passed' stop='1637742737921'>
+                    <name>POST /session/:sessionId/element/587b858c-1cbc-4f5d-b4c0-9a9aa78a55f9/click</name>
+                    <title>POST /session/:sessionId/element/587b858c-1cbc-4f5d-b4c0-9a9aa78a55f9/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
