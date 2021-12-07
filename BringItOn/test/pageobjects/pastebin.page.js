@@ -7,6 +7,9 @@ class PastebinPage extends Page {
     get minBar() {
         return $('#select2-postform-expiration-container');
     };
+    get min() {
+        return ($('.//ul[@id="select2-postform-expiration-results"]').$$('li')[2]);
+    };
     get scroll() {
         const el = $('.post-form__left');
         el.scrollIntoView({block: "center"});
@@ -14,18 +17,17 @@ class PastebinPage extends Page {
     get pasteNameTitle() {
         return $('#postform-name');
     };
-    get syntaxHighligting() {
-        return $('#select2-postform-format-container')
+    get syntaxHighlighting() {
+        return $('#select2-postform-format-container');
     };
-    get bash() {
-        return $("/html/body/span[2]/span/span[2]/ul/li[2]/ul/li[1]");
+    get bashInp() {
+        return $('[class=\"select2-search__field\"]');
     };
     get bashBtnText() {
        return $('[id="select2-postform-format-container"]');
     };
-    get secondParagraph() {
-        return $('/html/body/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/ol/li[2]/div').getText;
-    };
+    get secondParagraph() {return $('[class="source"]')};
+
 }
 
 
